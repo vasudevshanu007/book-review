@@ -1,0 +1,17 @@
+
+Auth:
+ POST /api/auth/register
+ POST /api/auth/login
+
+Books:
+  GET /api/books
+  GET /api/books/:id
+  POST /api/books (Admin only)
+
+Reviews:  
+  GET /api/reviews?bookId=bookId
+  POST /api/reviews (Authenticated)
+
+User:
+  GET /api/users/:id
+  PUT /api/users/:id
